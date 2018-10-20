@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- 驴妈妈设计图中的单位转化为rem,实现页面布局; 使用媒体查询为不同的屏幕设置不同的rem值; 使用less或者sass编写css并编译为css; 页面中的轮播图部分使用'swiper'实现;  -->
+    <!-- 头部块 -->
+    <div class="lmm-header">
+        <a href="#" class="area">
+            <span>上海</span>
+
+        </a>
+        <p>驴妈妈旅游网</p>
+        <a href="#" class="personal">
+            <div class="perImg">
+                <img src="./images/icon/my.png" alt="">
+            </div>
+
+        </a>
+    </div>
+    <!-- 轮播图模块 -->
+    <div class="lmm-banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./images/img/banner1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/img/banner2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/img/banner3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/img/banner4.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/img/banner5.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/img/banner6.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/img/banner7.jpg" alt="">
+                </div>
+
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- 旅游块 -->
+    <div class="lmm-tour">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <a href="#">
+                        <img src="./images/icon/nav1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-4">
+                    <a href="#">
+                        <img src="./images/icon/nav2.png" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-4">
+                    <a href="#">
+                        <img src="./images/icon/nav3.png" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-4">
+                    <a href="#">
+                        <img src="./images/icon/nav4.png" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-4">
+                    <a href="#">
+                        <img src="./images/icon/nav5.png" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-4">
+                    <a href="#">
+                        <img src="./images/icon/nav6.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- 买票块 -->
+    <div class="lmm-ticket">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-3">
+                    <a href="#">
+                        <img src="./images/icon/j1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#">
+                        <img src="./images/icon/j1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#">
+                        <img src="./images/icon/j1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#">
+                        <img src="./images/icon/j1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#">
+                        <img src="./images/icon/j1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#">
+                        <img src="./images/icon/j1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#">
+                        <img src="./images/icon/j1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="#">
+                        <img src="./images/icon/j1.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- 促销块 -->
+    <div class="lmm-sale">
+        <div class="saleContent clearfix">
+            <a href="#" >
+                <img src="./images/img/t1.jpg" alt="">
+            </a>
+            <a href="#">
+                <img src="./images/img/t2.jpg" alt="">
+            </a>
+            <a href="#" >
+                <img src="./images/img/t3.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <!-- 热门活动块 -->
+    <div class="lmm-active">
+        <div class="lmm-aTop">
+            <h4>热门活动</h4>
+        </div>
+    </div>
+    <!-- 假期块 -->
+    <div class="lmm-holiday"></div>
+    <!-- 注册块 -->
+    <div class="lmm-login"></div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true
+        });
+    </script>
+</body>
+
+</html>

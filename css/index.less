@@ -1,0 +1,133 @@
+// 头部
+.lmm-header{
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    .area{
+        float: left;
+        height: 100%;
+        margin-left:5px;
+        font-size: 16px;
+        color:purple;
+    }
+    >p{
+        display: inline;
+        font-size: 18px;
+        
+    }
+    .personal{
+        float: right;
+        height: 100%;
+        .perImg{
+            width: 20px;
+            margin-top:5px;
+            margin-right:5px;
+            img{
+               
+                width: 100%;
+            }
+        }
+    }
+ 
+}
+// 轮播图
+.lmm-banner {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    img{
+        width: 100%;
+    }
+}
+.swiper-pagination-bullet{
+    background: #fff !important;
+    opacity: 1 !important;
+    z-index: 999;
+}
+.swiper-pagination-bullet-active{
+    background: skyblue !important;
+    opacity: 1 !important;
+    z-index: 999; 
+}
+// 旅游块
+.lmm-tour{
+    width: 100%;
+    padding:0 10px;
+    div{
+        padding:5px 3px;
+        a{
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+        }
+        
+    }
+}
+// 买票块
+.lmm-ticket{
+    width: 100%;
+    div{
+        border:1px solid #ccc;
+        >a{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+// 促销块
+.lmm-sale{
+    width: 100%;
+    background-color: #fff;
+}
+/* 产品内容 */
+.saleContent{
+    width: 100%;
+    overflow: hidden;
+}
+/* a的宽度用百分比 */
+.saleContent a{
+    float: left;
+    width: 50%;
+    display: block;
+}
+.saleContent a img{
+    /* 去除基线 */
+    display:block;
+    width: 100%;
+}
+.saleContent a:nth-of-type(2){
+    border-left:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    box-sizing: border-box;
+}
+.saleContent a:nth-of-type(3){
+    border-left:1px solid #ccc;
+    box-sizing: border-box;
+}
